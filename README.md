@@ -8,15 +8,15 @@ Projeto desenvolvido para por em prática conceitos de programação com Orienta
 - Exibição das informações dos cadastrados
 - Interface pagável
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas:
 - Desenvolvido em JAVA
 - Intellij IDEA
 - GIT/Github
 
 ## Como executar este projeto:
-1. Clone este repositório:
+1. Clone este repositório: 
 git clone https://github.com/devmarciorios/cadastro-pessoas-java.git
 2. Compile e exeucte a classe 'main.java'
 
-## Autor
+## Autor:
 Marcio Rios
