@@ -3,7 +3,7 @@ package br.com.cadastro;
 //Classe Funcionário herdada de Pessoa e implementando Pagavel
 public class Funcionario extends Pessoa implements Pagavel {
 
-    private String cargo;
+    private final String cargo;
 
     public Funcionario(String nome, int idade, String cargo) {
         super(nome, idade);
@@ -18,8 +18,8 @@ public class Funcionario extends Pessoa implements Pagavel {
 
     //Output de informações do funcionário:
     @Override
-    public void exibirInfo() {
-        System.out.println("Nome: " + nome + ", Idade: " + idade + ", Cargo: " + cargo);
+    public String exibirInfo() {
+        return super.exibirInfo() + ", Cargo: " + cargo;
     }
 
     //Override para subscrição em texto do cargo:
