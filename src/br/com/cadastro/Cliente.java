@@ -2,7 +2,7 @@ package br.com.cadastro;
 
 //Classe Cliente herdado de Pessoa e implementando Pagavel:
 public class Cliente extends Pessoa implements Pagavel{
-    private String email;
+    private final String email;
 
     public Cliente(String nome, int idade, String email) {
         super(nome, idade);
@@ -22,8 +22,8 @@ public class Cliente extends Pessoa implements Pagavel{
 
     //Output de informações do Cliente
     @Override
-    public void exibirInfo() {
-        System.out.println("Nome: " + nome + ", Idade: " + idade + ", Email: " + email);
+    public String exibirInfo() {
+        return super.exibirInfo() + ", Email: " + email;
     }
 
     //Override para subscrição em texto do email:
