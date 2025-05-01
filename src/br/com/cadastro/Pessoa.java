@@ -1,4 +1,5 @@
 package br.com.cadastro;
+
 //Super classe que se extenderá às classes Cliente e Funcionário:
 public abstract class Pessoa {
     protected String nome;
@@ -9,6 +10,18 @@ public abstract class Pessoa {
         this.idade = idade;
     }
 
+    //Adicionando getters:
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
     //Método para exibir as informações do usuário:
-    public abstract void exibirInfo();
+    public String exibirInfo() {
+        return "Nome: " + nome + ", Idade: " + idade;
+    }
+
 }
