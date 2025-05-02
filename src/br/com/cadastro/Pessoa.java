@@ -10,15 +10,6 @@ public abstract class Pessoa {
         this.idade = idade;
     }
 
-    //Adicionando getters:
-    public String getNome() {
-        return nome;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
     //Método para exibir as informações do usuário:
     public String exibirInfo() {
         return "Nome: " + nome + ", Idade: " + idade;

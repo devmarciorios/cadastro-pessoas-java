@@ -1,23 +1,12 @@
 package br.com.cadastro;
 
-//Classe Cliente herdado de Pessoa e implementando Pagavel:
-public class Cliente extends Pessoa implements Pagavel{
+//Classe Cliente herdado de Pessoa:
+public class Cliente extends Pessoa {
     private final String email;
 
     public Cliente(String nome, int idade, String email) {
         super(nome, idade);
         this.email = email;
-    }
-
-    //Método para verificação de idade mínima para a realização do cadastro:
-    public boolean validarIdade() {
-        return idade >= 18;
-    }
-
-    //Output de pagamento do Cliente
-    @Override
-    public void pagar() {
-        System.out.println(nome + " realizou um pagamento como cliente.");
     }
 
     //Output de informações do Cliente
