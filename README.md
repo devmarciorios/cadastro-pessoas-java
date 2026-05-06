@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para por em prática conceitos de **Programação Orientada a Objetos**, **Tratamento de Exceções** e **Interface gráfica com Swing** em JAVA.
 
-## ✨ Funcionalidades:
+## Funcionalidades:
 - Cadastro de **clientes** e **funcionários**
 - Validação automática de idade mínima (**18 anos**)
 - Exibição e listagem das pessoas cadastrados
@@ -11,18 +11,18 @@ Projeto desenvolvido para por em prática conceitos de **Programação Orientada
 - **Consulta** e **exibição dinâmica** da lista de pessoas cadastradas
 - **Tratamento de exceções** para entradas inválidas
 
-## 💻 Tecnologias utilizadas:
+## Tecnologias utilizadas:
 - **JAVA 21**
 - **Swing**
 - **Intellij IDEA** (IDE)
 - **GIT / Github**
 
-## 🚀 Como executar este projeto:
+## Como executar este projeto:
 1. Clone este repositório: 
 git clone https://github.com/devmarciorios/cadastro-pessoas-java.git
 2. Compile e exeucte a classe 'CadastroPessoasGUI.java'
 
-## 🛠️ Como utilizar o sistema:
+## Como utilizar o sistema:
 1. Escolha no menu para cadastrar Cliente ou Funcionário
 2. Preencha os dados solicitados
 3. O sistema irá validar automaticamente a idade (Mínimo de 18 anos)
